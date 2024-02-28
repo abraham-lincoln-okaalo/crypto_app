@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://github.com/abraham-lincoln-okaalo/crypto_app/raw/master/public/logo.png" alt="Crypto-App Logo" width="200">
+  <h1>Crypto-App</h1>
+  <p>A Crypto Statistics and News Web Application</p>
+  <a href="https://crypto-stats-news.netlify.app/">Visit Website</a>
+  ·
+  <a href="https://github.com/abraham-lincoln-okaalo/crypto_app/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/abraham-lincoln-okaalo/crypto_app/issues">Request Feature</a>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://github.com/abraham-lincoln-okaalo/crypto_app/raw/master/public/screenshot.png" alt="Website Screenshot" width="600">
+</div>
 
-## Available Scripts
+## Table of Contents
+- [About](#about)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## About
+Welcome to Crypto-App, a web application that provides real-time statistics and news updates about various cryptocurrencies. Stay up-to-date with the latest market trends, prices, trading volumes, and more. The application leverages the power of React and external APIs to fetch and display crypto-related data. Whether you're a crypto enthusiast or a curious beginner, Crypto-App has got you covered!
 
-### `npm start`
+## Technologies
+The Crypto-App project is built using the following technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A popular JavaScript library for building user interfaces.
+- Redux: A state management library for predictable state container management.
+- Chart.js: A flexible charting library for visualizing crypto statistics.
+- Axios: A promise-based HTTP client for making API requests.
+- External APIs: The project integrates with various APIs, such as CoinGecko and NewsAPI, to fetch real-time crypto data and news articles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- View real-time statistics of popular cryptocurrencies.
+- Track price changes, trading volumes, and market capitalizations.
+- Visualize crypto data using interactive charts and graphs.
+- Get up-to-date news articles about the crypto market.
+- Search for specific cryptocurrencies and access detailed information.
 
-### `npm test`
+## Installation
+To run the Crypto-App web application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/abraham-lincoln-okaalo/crypto_app.git`
+2. Navigate to the project directory: `cd crypto_app`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open http://localhost:3000 in your preferred web browser.
 
-### `npm run build`
+## Usage
+Visit the [Crypto-App website](https://crypto-stats-news.netlify.app/) to access the live version of the application. Explore different cryptocurrencies, track their statistics, and stay informed with the latest news in the crypto world. Customize your viewing experience and dive deep into the crypto market. Make smarter investment decisions with Crypto-App!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+Contributions to this project are welcome! If you have any suggestions, ideas, or bug reports, please open an issue or submit a pull request. Let's collaborate to improve Crypto-App and make it an even better tool for crypto enthusiasts!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with 💰 and ☕️ by Abraham Lincoln
